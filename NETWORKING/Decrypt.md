@@ -9,14 +9,16 @@ In [`this`](https://drive.google.com/drive/folders/19ye_jvf93SzScmoMcuZ3cfU471aY
 ## SOLUTION
 
 - `binwalk` is done on the pcap file
-  
-  ![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-18-01-21-57-Screenshot%20from%202023-07-18%2001-21-23.png)
+  ![Screenshot from 2023-07-18 01-21-23](https://github.com/Saiikishen/bi0s_hardware/assets/128302556/8ece67f6-747c-4a26-ba56-79fee8ca0bf1)
+
+ 
 
 - As we can see the pcap file contains a PGP message and a PNG image
 
 - The PGP message can be extracted by giving the following filter `frame contains “MESSAGE`
-  
-  ![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-18-01-31-54-Screenshot%20from%202023-07-18%2001-30-16.png)
+  ![Screenshot from 2023-07-18 01-30-16](https://github.com/Saiikishen/bi0s_hardware/assets/128302556/a3cdcedd-43d5-4034-8ea0-b6fb0ed002b8)
+
+
 
 - `aGVsbG93b3JsZA` is a base64 encryption of the passphrase which is `helloworld`
 
@@ -74,19 +76,21 @@ In [`this`](https://drive.google.com/drive/folders/19ye_jvf93SzScmoMcuZ3cfU471aY
       f.write(t)
   ```
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-18-01-50-33-imag1.png)
 
-- We get this **QR Code** 
+
+- We get this **QR Code**
+- ![imag1](https://github.com/Saiikishen/bi0s_hardware/assets/128302556/79849b57-8a7c-4d1b-9bfb-856c7b5a9758)
+
 
 - Using `zbarimg imag1.png` we get acess to the **Private Key** 
   
-  ![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-18-01-52-42-Screenshot%20from%202023-07-18%2001-52-30.png)
+![Screenshot from 2023-07-18 01-52-30](https://github.com/Saiikishen/bi0s_hardware/assets/128302556/3ed47884-cf61-4bda-8b0a-c497cfb5948f)
+
 
 - We got the **Private key, Public Key , Passphrase** 
 
 - And using an online PGP decryption tool we can get the flag (https://8gwifi.org/pgpencdec.jsp)
   
-  ![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-18-01-57-56-Screenshot%20from%202023-07-18%2001-57-08.png)
   
   ### FLAG
   
