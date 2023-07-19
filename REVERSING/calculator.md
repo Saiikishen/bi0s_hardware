@@ -290,7 +290,7 @@ All these are subroutines to get standard input and to store it in a variable
 
 - This subroutine exits from the calculator
 
-  To compile and execute
+  ### To compile and execute
   `nasm -f elf64 calculator.asm -o calculator.o`
   `ld calculator.o -o calculator`
   
