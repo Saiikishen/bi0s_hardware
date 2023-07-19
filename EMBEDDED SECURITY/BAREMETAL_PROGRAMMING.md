@@ -126,6 +126,6 @@ SECTIONS
 pulseaudio: Reason: Invalid argument
 pulseaudio: set_sink_input_mute() failed
 pulseaudio: Reason: Invalid argument
-Hello world!
+Hello world!`
 
 `
