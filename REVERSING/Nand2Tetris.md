@@ -23,9 +23,7 @@ CHIP And {
 
 ```
 
-### OUTPUT
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-10-25-Screenshot%20from%202023-06-28%2021-36-22.png)
 
 
 
@@ -46,10 +44,6 @@ CHIP Or {
 
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-12-20-Screenshot%20from%202023-06-28%2021-01-09.png)
-
 
 
 ### NOT
@@ -65,9 +59,7 @@ CHIP Not {
 }
 ```
 
-### OUTPUT
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-13-43-Screenshot%20from%202023-06-28%2019-35-09.png)
 
 
 
@@ -87,9 +79,7 @@ CHIP Xor {
 }
 ```
 
-### OUTPUT
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-14-40-Screenshot%20from%202023-06-28%2021-49-24.png)
 
 
 
@@ -109,9 +99,6 @@ CHIP Mux {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-15-36-Screenshot%20from%202023-06-28%2022-07-18.png)
 
 
 
@@ -133,9 +120,6 @@ CHIP DMux {
 
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-16-47-Screenshot%20from%202023-06-28%2022-22-12.png)
 
 
 
@@ -171,11 +155,6 @@ CHIP Not16 {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-18-03-Screenshot%20from%202023-06-28%2022-32-42.png)
-
-
 
 
 
@@ -206,9 +185,6 @@ CHIP And16 {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-21-28-03-Screenshot%20from%202023-06-28%2022-43-20.png)
 
 
 
@@ -240,10 +216,6 @@ CHIP Or16 {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-23-02-07-Screenshot%20from%202023-07-01%2015-27-17.png)
-
 
 
 ### MUX16
@@ -274,9 +246,6 @@ CHIP Or16 {
 
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-23-05-17-Screenshot%20from%202023-07-01%2015-31-18.png)
 
 
 
@@ -302,10 +271,6 @@ CHIP Or8Way {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-23-08-54-Screenshot%20from%202023-07-01%2015-52-37.png)
-
 
 
 ### DMUX4WAY
@@ -323,9 +288,6 @@ CHIP DMux4Way {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-23-11-46-Screenshot%20from%202023-07-01%2016-08-31.png)
 
 
 
@@ -343,9 +305,6 @@ CHIP Mux4Way16 {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-23-14-05-Screenshot%20from%202023-07-01%2016-31-56.png)
 
 
 
@@ -366,9 +325,6 @@ CHIP Mux8Way16 {
 }
 ```
 
-### OUTPUT
-
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-23-19-25-Screenshot%20from%202023-07-01%2016-37-37.png)
 
 
 
@@ -389,6 +345,3 @@ CHIP DMux8Way {
 
 
 
-### OUTPUT
-
-  ![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-23-47-49-Screenshot%20from%202023-07-17%2023-45-35.png)
