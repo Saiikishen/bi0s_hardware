@@ -122,4 +122,10 @@ SECTIONS
 
 ### OUTPUT
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-11-49-07-Screenshot%20from%202023-07-17%2011-48-45.png)
+`pulseaudio: set_sink_input_volume() failed
+pulseaudio: Reason: Invalid argument
+pulseaudio: set_sink_input_mute() failed
+pulseaudio: Reason: Invalid argument
+Hello world!
+
+`
