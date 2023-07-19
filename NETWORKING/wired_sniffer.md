@@ -7,14 +7,15 @@
 ## Solution:
 
 -`binwalk` is done on the given pcap file 
+![Screenshot from 2023-07-17 15-52-46](https://github.com/Saiikishen/bi0s_hardware/assets/128302556/f421e376-5ce8-4c8c-b94e-9eb74c5305da)
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-16-00-19-Screenshot%20from%202023-07-17%2015-52-46.png)
 
 -The `pcap` file is the loaded into **wireshark** 
 
 -`http` objects are oexported
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-16-11-24-Screenshot%20from%202023-07-17%2016-11-11.png)
+![Screenshot from 2023-07-17 16-11-11](https://github.com/Saiikishen/bi0s_hardware/assets/128302556/271233b8-d460-43ef-bcc8-631a4fade5cd)
+
 
 -from `Jarvis.txt` we get a clue
 
@@ -28,7 +29,7 @@
 
 -`zsteg` commad is used to extract the flag from the image in terminal
 
-![](/home/saiikishen/snap/marktext/9/.config/marktext/images/2023-07-17-16-22-45-Screenshot%20from%202023-07-17%2016-21-07.png)
+![Screenshot from 2023-07-17 16-21-07](https://github.com/Saiikishen/bi0s_hardware/assets/128302556/09d1a13c-1a86-4da0-a688-41e893507eac)
 
 
 
